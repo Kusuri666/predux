@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  background-color: rgb(42, 42, 236);
+  
+}
+.Name{
+  font-size: 150px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: gold;
+
+}
+.bod{
+  display: flex;
+  flex-direction: row;
+  padding: 20px 10px ;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+/*input form*/
+
+.for{
+  background-color: darkblue;
+  padding: 20px;
+  height: 450px;
+ 
+}
+
+input{
+  height: 30px;
+  width: 250px;
+  border-color: transparent;
+  
+}
+#sub{
+  border-color: yellow;
+  background-color: yellow;
+  height: 35px;
+  width: 100px;
+  border-radius:40%;
+}
+
+#age{
+  
+  height: 30px;
+  width: 100px;
+}
+/*cart*/
+.car{
+ background:rgb(231, 235, 189);
+ border-style: solid ;
+ border-width: 5px;
+ border-color: cyan;
+ text-align: center;
+ width: 250px;
+ height: 400px;
+ border-radius:10%;
+}
+.chead{
+  height: 100px;
+}
+.cbody{
+  height: 200px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cfoot{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding: 5px;
+  background-color: rgb(223, 223, 215);
+}
+h1{
+  color: darkcyan;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{color: gray;
+font-size: 16px;
+}
+#cbtn{
+  border-radius:10%;
+  border-color: rgb(212, 212, 30);
+  background-color:rgb(212, 212, 30);
+
+}
+/*modal*/
+.modal-header{
+  background-color: midnightblue;
+  color: rgb(228, 203, 64);
+}
+.modal-footer{
+  background-color: midnightblue;
+}
+#modal-body{
+  background-color: darkgray;
+  
+}
+#min{
+  height: 25px;
+  width: 300px;
+  border-color: transparent;
+}
+#ufor{
+  display: flex;
+  flex-direction: column;
+
+}
